@@ -18,4 +18,4 @@ cursor.execute("SELECT nome, email FROM cliente")
 dados = cursor.fetchall()
 
 for nome, email in dados:
-st.write(f"{nome} - {email}")
+    st.write(f"{nome} - {email}")
